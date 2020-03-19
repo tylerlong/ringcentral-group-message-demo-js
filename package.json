@@ -1,4 +1,12 @@
 {
+  "license": "MIT",
+  "scripts": {
+    "test": "node -r dotenv/config index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ringcentral-js-concise": "^0.7.8"
+  },
   "devDependencies": {
     "standard": "^14.3.3",
     "yarn-upgrade-all": "^0.5.2"
